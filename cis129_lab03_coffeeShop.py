@@ -16,6 +16,7 @@ muffins = input("How many muffins would you like?")
 #  Make the inputs addable numbers and add them, according to their prices
 #  (Coffees are $5, Muffins are $4)
 
+
 coffeecost=(int(coffees)*5)
 muffincost=(int(muffins)*4)
 
@@ -40,8 +41,8 @@ print ("My Coffee and Muffin Shop Receipt")
 
 #  Ensure the dollar charge on receipt looks nice with no space between dollars and cents.
 
-print ((coffees), " Coffees at $5 each: $", (coffeecost), ".00", sep='')
-print ((muffins), " Muffins at $4 each: $", (muffincost), ".00", sep='')
+print ((coffees), " Coffees at $5 each: $ ", (coffeecost), ".00", sep='')
+print ((muffins), " Muffins at $4 each: $ ", (muffincost), ".00", sep='')
 print ("6% tax: $ ",(tax))
 print ("---------")
 print ("Total: $ ",(subtotal + tax))
