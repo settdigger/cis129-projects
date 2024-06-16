@@ -41,7 +41,8 @@ formatted_tax = "{0:.2f}".format(tax)
 
 # Now we'll print the whole receipt
 
-
+print ()
+print ()
 print ("***************************************")
 print ("My Coffee and Muffin Shop")
 print ("Number of coffees bought?")
