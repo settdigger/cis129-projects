@@ -7,17 +7,23 @@ Using 4 user prompts, it generates a short receipt.
 
 """
 
+# Greet the customer
+
+print()
+print ("Welcome to our Virtual Coffee Shop!")
+print()
+
 
 #  Ask for purchase amounts
 
-coffees = input("How many coffees would you like?")
-muffins = input("How many muffins would you like?") 
+coffees = input("How many coffees would you like? ")
+muffins = input("How many muffins would you like? ") 
 
 # Provide 2 more purchase options
 
 
-burritos = input("How many breakfast burritos would you like?")
-pies = input("How many slices of pecan pie would you like?") 
+burritos = input("How many breakfast burritos would you like? ")
+pies = input("How many slices of pecan pie would you like? ") 
 
 #  Make the inputs addable numbers and add them, according to their prices
 #  (Coffees are $5, Muffins are $4, breakfast burritos are $6, and slices of pie are $5)
@@ -62,8 +68,8 @@ print ("My Coffee and Muffin Shop Receipt")
 
 print ((coffees), " Coffees at $5 each: $ ", (coffeecost), ".00", sep='')
 print ((muffins), " Muffins at $4 each: $ ", (muffincost), ".00", sep='')
-print ((burritos), " Breakfast burritos at $6 each: $ ", (burritocost), ".00", sep='')
-print ((pies), " Pecan pie slices at $5 each: $ ", (piecost), ".00", sep='')
+print ((burritos), " Breakfast Burritos at $6 each: $ ", (burritocost), ".00", sep='')
+print ((pies), " Pecan Pie Slices at $5 each: $ ", (piecost), ".00", sep='')
 print ("6% tax: $ ",(formatted_tax))
 print ("---------")
 
